@@ -7,8 +7,6 @@ import com.firstapp.kavinda.entity.Student;
 
 @Repository
 public interface studentRepository extends JpaRepository< Student, Long > {
-
-	Student update(Student student);
 	
 	
 }
